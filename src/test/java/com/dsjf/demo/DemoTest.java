@@ -323,7 +323,7 @@ class DemoTest {
                 .write(VavrGson.registerAll(new GsonBuilder()).create().toJson(HashMap.of("key", "value")));
     }
 
-    private static @Data
+    private @Data
     class MutablePerson {
         String firstName;
         String lastName;
@@ -358,7 +358,7 @@ class DemoTest {
         );
     }
 
-    private static @Value
+    private @Value
     class Person {
         String firstName;
         String lastName;

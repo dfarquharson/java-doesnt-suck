@@ -18,6 +18,7 @@ class LiveDemoTest {
      * - Benefits of polyparadigmatic monolingualism?
      * - Referential Transparency
      * - Immutable OOP == FP?
+     * - FP = immutable programming with expressions enabling equational reasoning?
      * - Usefulness of Static Types
      * - Incredible tooling
      */
@@ -38,7 +39,9 @@ class LiveDemoTest {
 
     @Test
     void moreFunVavrTypes() {
-        // Try/Either/Lazy
+        // Try -- recover/getOrElse
+        // Either -- typeful heterogeneousness
+        // Lazy -- memoize my things, and don't do it until I say so
     }
 
     @Test

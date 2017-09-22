@@ -162,6 +162,37 @@ class DemoTest {
                 .toJavaList();
 
         assertEquals(xs4, xs5);
+
+        // the strawman java that we remember: as verbose as possible
+        java.util.List<Integer> xs6 = new ArrayList<Integer>();
+        xs6.add(1);
+        xs6.add(2);
+        xs6.add(3);
+        xs6.add(4);
+        log.info(xs6);
+
+        java.util.List<Integer> xs7 = new ArrayList<Integer>();
+        for (int i = 0; i < xs6.size(); i++) {
+            int j = xs6.get(i);
+            if (j % 2 == 0) {
+                xs7.add(++j);
+            }
+        }
+        log.info(xs6);
+        log.info(xs7);
+        assertEquals(
+                new ArrayList<Integer>() {{
+                    add(3);
+                    add(5);
+                }},
+                xs7
+        );
+
+        // vavr-land cometh
+        assertEquals(
+                List.range(1, 5).filter(x -> x % 2 == 0).map(x -> x + 1).toJavaList(),
+                xs7
+        );
     }
 
     @Test

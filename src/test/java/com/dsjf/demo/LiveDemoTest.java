@@ -66,16 +66,20 @@ class LiveDemoTest {
 
     /*
      * But wait, there's more!
-     * - Super easy REST APIs with sparkjava
+     * - Super easy REST APIs with sparkjava (but seriously, Dropwizard/Spring Boot aren't that bad)
      * - SOOOO much more in guava
-     * - jooq
+     * - jooq (fluent, type-safe sql)
      * - "reactive streams"
      * - Hadoop/Spark and the surrounding ecosystem
      * - deeplearning4j
-     * - Processing (Graphics stuff)
-     * - The Checker Framework
+     * - Processing (Easy to use graphics stuff)
+     * - The Checker Framework (add strength to the type system)
      * - OkHttp as the "requests" of java
      * - infinite abyss of JVM libraries
+     * - quasar (golang-style channels/green threads)
+     * - akka (erlang-style distributed actors)
+     * - annotation processors (compile-time metaprogramming)
+     * - btw, IntelliJ IDEA is a java swing app. Remember your stereotype of those?
      */
 
     /*

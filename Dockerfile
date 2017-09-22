@@ -1,5 +1,4 @@
 FROM maven:3-jdk-8 as build
-
 RUN mkdir /code
 COPY pom.xml /code/
 COPY src/ /code/src/

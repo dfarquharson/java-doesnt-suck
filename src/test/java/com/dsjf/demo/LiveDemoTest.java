@@ -81,6 +81,8 @@ class LiveDemoTest {
     /*
      * Yeah, but, can't I just do all this in python?
      * You could, but, for me, this all actually boils down to static types.
+     * I want the computer (compiler, IDE, other static analysis tools) to be able to help me as much as possible.
+     * I'm not smart enough to use dynamic types.
      * Also, don't make me bring up the GIL... :)
      */
 }

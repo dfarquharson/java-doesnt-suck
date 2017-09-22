@@ -3,7 +3,6 @@ RUN mkdir /code
 COPY pom.xml /code/
 COPY src/ /code/src/
 WORKDIR /code
-RUN ls -lahtR
 RUN mvn package
 
 FROM openjdk:8-jre-alpine

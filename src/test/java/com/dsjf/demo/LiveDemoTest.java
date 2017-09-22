@@ -10,6 +10,10 @@ class LiveDemoTest {
      * background ideas:
      * - Interactive Development
      * - "Fun"
+     * - "Prototyping" (I no longer believe this is even a thing.
+     *                  Any sufficiently viable "prototype" becomes a critical piece of a production system.
+     *                  Therefore, we should always be writing "production-quality" code.)
+     * - Development speed ("Time to Value") -- I'll race 'ya :)
      * - Polyparadigmatism > Polylingualism?
      * - Benefits of polyparadigmatic monolingualism?
      * - Referential Transparency
@@ -23,6 +27,7 @@ class LiveDemoTest {
     @Test
     void theJavaYouLoveToHate() {
         // old style stuff. blargh.
+        // "map", "filter" with c-style for loops. the horror.
         // even java8 stuff with its java-y boilerplate stream/collect
     }
 
@@ -55,7 +60,10 @@ class LiveDemoTest {
 
     @Test
     void lombokImmutableValueClasses() {
-        // immutable classes made trivial.
+        // bean-style data classes. kill me now.
+        // mutable data class.
+        // immutable with a mutable builder?
+        // immutable value classes made trivial.
         // equals/hashcode/toString
         // new Gson().toJson() too!
     }
@@ -81,6 +89,7 @@ class LiveDemoTest {
      * - akka (erlang-style distributed actors)
      * - annotation processors (compile-time metaprogramming)
      * - btw, IntelliJ IDEA is a java swing app. Remember your stereotype of those?
+     * - javaEE 1.4 culture != modern java
      */
 
     /*

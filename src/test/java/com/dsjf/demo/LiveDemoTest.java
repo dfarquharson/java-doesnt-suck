@@ -42,7 +42,7 @@ class LiveDemoTest {
     }
 
     @Test
-    void patternMatchingInJavaExclamationMark() {
+    void patternMatchingInJavaExclamationPoint() {
         // wat?
     }
 

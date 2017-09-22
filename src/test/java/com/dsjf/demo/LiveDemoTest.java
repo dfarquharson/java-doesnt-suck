@@ -9,6 +9,7 @@ class LiveDemoTest {
     /*
      * background ideas:
      * - Interactive Development
+     * - "Fun"
      * - Polyparadigmatism > Polylingualism?
      * - Benefits of polyparadigmatic monolingualism?
      * - Referential Transparency
